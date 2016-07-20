@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/CitationConfiguration.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<CitationConfiguration xmlns="http://chs.harvard.edu/xmlns/hocuspocus" tiversion="6.0.0">
+
+    <online urn="urn:cts:aflibre:af.ah.hc2col:" type="2col" docname="achterhuis_2cols.txt" nodeformat="text">
+        <citationScheme>
+            <citation label="entry">
+                <citation label="section"/>
+            </citation>
+        </citationScheme>
+    </online>
+    
+    <online urn="urn:cts:aflibre:af.ah.hc82XF:"  type="82XF" docname="achterhuis_82XF.txt" nodeformat="text">
+        <citationScheme>
+            <citation label="entry">
+                <citation label="section"/>
+            </citation>
+        </citationScheme>
+    </online>
+    
+    <online urn="urn:cts:citedemo:easycts.intro.md" type="markdown" docname="intro.md"/>
+    
+
+</CitationConfiguration>

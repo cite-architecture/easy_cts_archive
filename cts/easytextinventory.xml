@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="schemas/TextInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TextInventory
+  tiid="hmt"
+  tiversion="6.0.0"
+  xmlns="http://chs.harvard.edu/xmlns/cts"
+  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  
+  <ctsnamespace
+    abbr="aflibre"
+    ns="http://neelsmith.github.io/aflibre">
+    <description
+      xml:lang="eng">Anne Frank, Het Achterhuis, in a free, citable, digital edition.</description>
+  </ctsnamespace>
+  
+  
+  <ctsnamespace
+    abbr="citedemo"
+    ns="http://cite-architecture.github.io/ctsns/citedemo">
+    <description
+      xml:lang="eng">Demo documents illustrating the CITE architecture.</description>
+  </ctsnamespace>
+  
+  
+  <textgroup urn="urn:cts:citedemo:easycts:">
+    <groupname xml:lang="eng">CTS easy archive</groupname>
+    <work urn="urn:cts:citedemo:easycts.intro:" xml:lang="eng">
+      <title xml:lang="eng">Introduction</title>
+      <edition urn="urn:cts:citedemo:easycts.intro.md:">
+        <label xml:lang="eng">Edition based on markdown source file</label>
+      </edition>
+    </work>
+  </textgroup>
+  
+  
+  <textgroup
+    urn="urn:cts:aflibre:af:">
+    <groupname
+      xml:lang="nel">Anne Frank</groupname>
+    <work
+      urn="urn:cts:aflibre:af.ah:"
+      xml:lang="nel">
+      <title
+        xml:lang="nel">Het Achterhuis</title>
+      <edition
+        urn="urn:cts:aflibre:af.ah.hc2col:">
+        <label
+          xml:lang="eng">Holy Cross edition</label>
+        <description
+          
+          xml:lang="eng">Citable, digital edition of Het Achterhuis, from Holy Cross, based on source file in 2-column format</description>
+        <online/>
+      </edition>
+  
+      <edition
+        urn="urn:cts:aflibre:af.ah.hc82XF:">
+        <label
+          xml:lang="eng">Holy Cross edition</label>
+        <description
+          
+          xml:lang="eng">Citable, digital edition of Het Achterhuis, from Holy Cross, based on source file in OHCO2 eXchange Format</description>
+        <online/>
+      </edition>
+      
+    
+    </work>
+  </textgroup>
+  
+</TextInventory>
