@@ -18,7 +18,7 @@
         </citationScheme>
     </online>
     
-    <online urn="urn:cts:citedemo:easycts.intro.md" type="markdown" docname="intro.md"/>
+    <online urn="urn:cts:citedemo:easycts.intro.md:" type="markdown" docname="intro.md"/>
     
 
 </CitationConfiguration>
