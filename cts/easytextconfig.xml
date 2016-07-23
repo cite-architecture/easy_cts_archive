@@ -10,7 +10,7 @@
         </citationScheme>
     </online>
     
-    <online urn="urn:cts:aflibre:af.ah.hc82XF:"  type="82XF" docname="achterhuis_82XF.txt" nodeformat="text">
+    <online urn="urn:cts:aflibre:af.ah.hc82XF:"  type="82xf" docname="achterhuis_82XF.txt" nodeformat="text">
         <citationScheme>
             <citation label="entry">
                 <citation label="section"/>
